@@ -7,6 +7,9 @@ public class Logging {
     private static final Logger LOGGER = LoggerFactory.getLogger(Logging.class);
 
     public static void main(String[] args) {
-        LOGGER.info("log test");
+        LOGGER.debug("log debug test");
+        LOGGER.info("log info test");
+        LOGGER.warn("log warn test");
+        LOGGER.error("log error test");
     }
 }
